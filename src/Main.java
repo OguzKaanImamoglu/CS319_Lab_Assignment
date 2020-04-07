@@ -22,6 +22,7 @@ public class Main {
        
         ArrayList<Integer> result = organizer.concatAndSort(ArrayList1, ArrayList2, ArrayList3);
         System.out.println(result);
+        System. out .println( "Successfully reverted in Git" );
     }
 
 }

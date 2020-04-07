@@ -7,12 +7,8 @@ public class ArrayOrganizer {
         ArrayList<Integer> result = new ArrayList<>();
         result.addAll(list1);
         result.addAll(list2);
-<<<<<<< HEAD
-        Collections.sort(result, Collections.reverseOrder());
-=======
         result.addAll(list3);
-        Collections.sort(result);
->>>>>>> feature-branch
+        Collections.sort(result, Collections.reverseOrder());
         return result;
     }
 

@@ -19,7 +19,7 @@ public class Main {
         ArrayList3.add(200);
 
         ArrayOrganizer organizer = new ArrayOrganizer();
-       
+
         ArrayList<Integer> result = organizer.concatAndSort(ArrayList1, ArrayList2, ArrayList3);
         System.out.println(result);
     }
